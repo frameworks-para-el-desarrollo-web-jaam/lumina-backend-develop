@@ -1,0 +1,19 @@
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "id": "P001",
+  "name": "Labial Lumina Mate",
+  "brand": "Lumina",
+  "category": "maquillaje",
+  "productType": "labial",
+  "gender": "femenino",
+  "price": 199,
+  "description": "Color intenso y duradero",
+  "likes": 0,
+  "photo": "https://example.com/images/labial-mate.jpg",
+  "discount": 10
+}
+
+### Listar todos los productos 
+GET http://localhost:5000/api/products
